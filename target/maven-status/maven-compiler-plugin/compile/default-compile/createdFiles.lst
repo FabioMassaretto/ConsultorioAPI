@@ -1,0 +1,15 @@
+com\consultorioapi\controllers\CtoFService.class
+com\consultorioapi\util\EspecialidadeMedica.class
+com\consultorioapi\repositories\interfaces\RepsitorioGenericoInterface.class
+com\consultorioapi\util\PopulaMedicos.class
+com\consultorioapi\repositories\RepositorioGenerico.class
+com\consultorioapi\models\Users.class
+com\consultorioapi\models\Consultorios.class
+com\consultorioapi\models\Consultas.class
+com\consultorioapi\test\TesteBuscaMedicos.class
+com\consultorioapi\controllers\MedicosController.class
+com\consultorioapi\repositories\medicos\MedicosRepositorio.class
+com\consultorioapi\test\Teste.class
+com\consultorioapi\models\Medicos.class
+com\consultorioapi\repositories\medicos\RepositorioMedico.class
+com\consultorioapi\util\JPAUtil.class
