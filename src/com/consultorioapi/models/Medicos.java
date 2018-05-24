@@ -5,6 +5,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 
 import com.google.gson.Gson;
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
 import com.thoughtworks.xstream.XStream;
 
 @Entity
@@ -13,8 +15,11 @@ public class Medicos {
 	@javax.persistence.Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Integer Id;
+	@SerializedName("nome")
 	private String Nome;
+	@SerializedName("crm")
 	private String CRM;
+	@SerializedName("idade")
 	private Integer Idade;
 	
 	public Integer getId() {

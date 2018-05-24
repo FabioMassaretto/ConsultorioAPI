@@ -59,7 +59,7 @@ public class RepositorioGenerico<T> implements RepsitorioGenericoInterface {
 	@Override
 	public <T> void delete(T entity) {
 		em.getTransaction().begin();
-		em.remove(entity);
+		em.remove(em.contains(entity) ? entity : em.merge(entity));
 		em.getTransaction().commit();
 	}
 
